@@ -1,3 +1,5 @@
+Note: this fork fixes a bug (an unocmmented line)
+
 # Surface distance metrics
 
 ## Summary
@@ -15,12 +17,11 @@ This library computes the following performance metrics for segmentation:
 - Volumetric dice (see `compute_dice_coefficient`)
 
 ## Installation
-First clone the repo, then install the dependencies and `surface-distance`
+Install the dependencies and `surface-distance`
 package via pip:
 
 ```shell
-$ git clone https://github.com/deepmind/surface-distance.git
-$ pip install surface-distance/
+$ pip install git+https://github.com/JoHof/surface-distance.git
 ```
 
 ## Usage
